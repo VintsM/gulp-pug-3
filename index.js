@@ -18,7 +18,8 @@ const pugOptKeys = [
 	'globals',
 	'cache',                  // render
 	'inlineRuntimeFunctions', // compileClient
-	'name'                    // compileClient
+	'name',                   // compileClient
+	'plugins'
 ];
 
 module.exports = (options) => {
